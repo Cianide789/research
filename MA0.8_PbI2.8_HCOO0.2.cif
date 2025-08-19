@@ -1,41 +1,48 @@
-data_MA0p8_PbI2p8_HCOO0p2
-_symmetry_space_group_name_H-M   'Pm-3m'
-_symmetry_Int_Tables_number      221
-_cell_length_a    6.30000
-_cell_length_b    6.30000
-_cell_length_c    6.30000
-_cell_angle_alpha 90
-_cell_angle_beta  90
-_cell_angle_gamma 90
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'MA0p8_PbI2p8_HCOO0p2'
+_cell_length_a                         6.300000
+_cell_length_b                         6.300000
+_cell_length_c                         6.300000
+_cell_angle_alpha                      90.000000
+_cell_angle_beta                       90.000000
+_cell_angle_gamma                      90.000000
+_cell_volume                           250.047023
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
 
 loop_
-_symmetry_equiv_pos_as_xyz
-  'x,y,z'
+_space_group_symop_operation_xyz
+   'x, y, z'
 
 loop_
-_atom_site_label
-_atom_site_type_symbol
-_atom_site_Wyckoff_symbol
-_atom_site_fract_x
-_atom_site_fract_y
-_atom_site_fract_z
-_atom_site_occupancy
-Pb  Pb  a  0.00000 0.00000 0.00000 1.00000
-A_N N   b  0.50000 0.50000 0.50000 0.800000
-A_C C   b  0.50000 0.50000 0.50000 0.800000
-X1 I    d  0.50000 0.00000 0.00000 0.933333
-X2 I    d  0.00000 0.50000 0.00000 0.933333
-X3 I    d  0.00000 0.00000 0.50000 0.933333
-# HCOO- on each face (anti–anti approx.) with small occupancy per face
-C_f  C   d  0.50000 0.50000 0.00000 0.066667
-O_f1 O   d  0.50000 0.62000 0.00000 0.066667
-O_f2 O   d  0.50000 0.38000 0.00000 0.066667
-H_f  H   d  0.50000 0.66000 0.00000 0.066667
-C_g  C   d  0.50000 0.00000 0.50000 0.066667
-O_g1 O   d  0.62000 0.00000 0.50000 0.066667
-O_g2 O   d  0.38000 0.00000 0.50000 0.066667
-H_g  H   d  0.66000 0.00000 0.50000 0.066667
-C_h  C   d  0.00000 0.50000 0.50000 0.066667
-O_h1 O   d  0.00000 0.62000 0.50000 0.066667
-O_h2 O   d  0.00000 0.38000 0.50000 0.066667
-H_h  H   d  0.00000 0.66000 0.50000 0.066667
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   Pb         1.0     0.000000     0.000000     0.000000    Uiso  ? Pb
+   A_N        0.8000  0.500000     0.500000     0.500000    Uiso  ? N
+   A_C        0.8000  0.500000     0.500000     0.500000    Uiso  ? C
+   X1         0.9333  0.500000     0.000000     0.000000    Uiso  ? I
+   X2         0.9333  0.000000     0.500000     0.000000    Uiso  ? I
+   X3         0.9333  0.000000     0.000000     0.500000    Uiso  ? I
+   C_f        0.0667  0.500000     0.500000     0.000000    Uiso  ? C
+   O_f1       0.0667  0.500000     0.620000     0.000000    Uiso  ? O
+   O_f2       0.0667  0.500000     0.380000     0.000000    Uiso  ? O
+   H_f        0.0667  0.500000     0.660000     0.000000    Uiso  ? H
+   C_g        0.0667  0.500000     0.000000     0.500000    Uiso  ? C
+   O_g1       0.0667  0.620000     0.000000     0.500000    Uiso  ? O
+   O_g2       0.0667  0.380000     0.000000     0.500000    Uiso  ? O
+   H_g        0.0667  0.660000     0.000000     0.500000    Uiso  ? H
+   C_h        0.0667  0.000000     0.500000     0.500000    Uiso  ? C
+   O_h1       0.0667  0.000000     0.620000     0.500000    Uiso  ? O
+   O_h2       0.0667  0.000000     0.380000     0.500000    Uiso  ? O
+   H_h        0.0667  0.000000     0.660000     0.500000    Uiso  ? H
